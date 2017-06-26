@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initial structure is created, with a pointer to the directory.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A gate, mid-stage. Offers safety/security; the ability to change one's mind.

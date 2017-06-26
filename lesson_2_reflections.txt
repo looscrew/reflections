@@ -2,3 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 Initial structure is created, with a pointer to the directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 A gate, mid-stage. Offers safety/security; the ability to change one's mind.
+How can you use the staging area to make sure you have one commit per logical change?
+Use (1) 'git diff' and (2) 'git diff --staged' to compare (1) the working directory to the staging area, and (2) the staging area to the recent commit.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When experimenting/testing new ideas that deviate from the project so far. Or when collaborating with others.
+How do the diagrams help you visualize the branch structure?
+There should be actual graphs in the command line... maybe there are in the GUI version.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Having all commits reachable in one path. The diagram shows what's missing in the command line.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro - no (or less) room for human error and less human work. Con - if any, room for machine error.
